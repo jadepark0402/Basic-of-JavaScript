@@ -22,7 +22,7 @@ console.log(boolean);
 console.log(!boolean);
 console.log(!!boolean);
 
-// + 숫자가 아닌 타입들을 숫자로 변환하면 어떤값이 나오는지 확인할 수 있음
+// +로 숫자가 아닌 타입들을 숫자로 변환하면 어떤값이 나오는지 확인할 수 있음
 console.clear();
 console.log(+false); // 0
 console.log(+null); // 0
@@ -33,5 +33,3 @@ console.log(+undefined); // NaN
 
 console.log(!1); // ! 부정연산자
 // !! 값은 boolean 타입으로 변환함
-
-

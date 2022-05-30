@@ -6,15 +6,15 @@
 // 3. 증감식 수행
 // 4. 조건식 거짓이 될때까지 2번과 3번을 반복
 
-// for (let i = 0; i < 5; i++) {
-//   console.log(i);
-// }
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
 
-// for (let i = 0; i < 5; i++) {
-//   for (let j = 0; j < 5; j++) {
-//     console.log(i, j);
-//   }
-// }
+for (let i = 0; i < 5; i++) {
+  for (let j = 0; j < 5; j++) {
+    console.log(i, j);
+  }
+}
 
 // 무한루프 💩
 // for (;;) {
